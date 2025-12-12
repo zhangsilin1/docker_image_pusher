@@ -1,1 +1,1 @@
-mysql
+oracledb_exporter:0.5.0
