@@ -9,6 +9,6 @@ mysql:8.0
 prom/prometheus:v2.48.0
 prom/alertmanager:v0.26.0
 prom/snmp-exporter:v0.26.0
-
-# 你之前提到的 ghcr.io 镜像（保留）
-ghcr.io/iamseth/oracledb_exporter:0.6.0
+# 新增示例
+redis:7.2-alpine
+elasticsearch:8.11.0
