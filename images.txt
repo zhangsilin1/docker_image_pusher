@@ -1,1 +1,14 @@
 ghcr.io/iamseth/oracledb_exporter:0.6.0
+# 基础镜像
+node:18-alpine
+nginx:alpine
+python:3.8-slim
+mysql:8.0
+
+# Prometheus 相关镜像
+prom/prometheus:v2.48.0
+prom/alertmanager:v0.26.0
+prom/snmp-exporter:v0.26.0
+
+# 你之前提到的 ghcr.io 镜像（保留）
+ghcr.io/iamseth/oracledb_exporter:0.6.0
