@@ -4,7 +4,7 @@ node:18-alpine
 nginx:alpine
 python:3.8-slim
 mysql:8.0
-
+python:3.9-slim
 # Prometheus 相关镜像
 prom/prometheus:v2.48.0
 prom/alertmanager:v0.26.0
