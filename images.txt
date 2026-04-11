@@ -12,3 +12,5 @@ prom/snmp-exporter:v0.26.0
 # 新增示例
 redis:7.2-alpine
 elasticsearch:8.11.0
+# 代码仓库
+gitea/gitea:latest
